@@ -1,11 +1,9 @@
 #include <iostream>
-#include <fstream>
-#include <vector>
 #include "MyGraph.h"
 
 using namespace std;
 
-main()
+int main()
 {
     ifstream ifile("input.txt");
     int n, e, c;
@@ -38,7 +36,7 @@ main()
 
     for (int i = 0; i < p.size(); i++)
     {
-      pair<vector<int>, float> res = g.HW#Prog(p[i], q[i]);
+      pair<vector<int>, float> res = g.HW2Prog(p[i], q[i]);
       resarray.push_back(res);
     }
 
