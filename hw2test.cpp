@@ -32,7 +32,7 @@ int main()
 
     vector< pair<vector<int>, float> > resarray;
 
-    // tht timer will time this for loop
+    // the timer will time this for loop
 
     for (int i = 0; i < p.size(); i++)
     {
