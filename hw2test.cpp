@@ -48,6 +48,8 @@ int main()
 	cout << "  annoying-ness : " << resarray[i].second << endl;
     }
 
+    g.Kruskals();
+    g.Output();
 
     return(0);
 
